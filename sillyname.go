@@ -35,5 +35,5 @@ func GenerateStupidName() string {
 	noun1 := randomNoun()
 	noun2 := randomNoun()
 	adjective := randomAdjective()
-	return noun1 + adjective + " " + noun2
+	return noun1 + " " + adjective + " " + noun2
 }
