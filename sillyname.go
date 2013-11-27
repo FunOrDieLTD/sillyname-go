@@ -33,7 +33,6 @@ func lowercaseFirstLetter(word string) string {
 func GenerateStupidName() string {
 	rand.Seed(time.Now().UnixNano())
 	noun1 := randomNoun()
-	noun2 := randomNoun()
 	adjective := randomAdjective()
 	return noun1 + " " + adjective
 }
